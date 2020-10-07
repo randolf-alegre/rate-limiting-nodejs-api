@@ -1,0 +1,29 @@
+{
+  "name": "rate-limiting-nodejs-api",
+  "version": "1.0.0",
+  "description": "Limit API request using Token bucket Algorithm in nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randolf-alegre/rate-limiting-nodejs-api.git"
+  },
+  "keywords": [
+    "rate-limiting",
+    "nodejs"
+  ],
+  "author": "Randolf Alegre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randolf-alegre/rate-limiting-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/randolf-alegre/rate-limiting-nodejs-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "moment": "^2.29.1",
+    "redis": "^3.0.2"
+  }
+}
